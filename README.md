@@ -1,9 +1,6 @@
 [![Halide](screenshot.jpg?raw=true "Halide in dark mode")](https://halide.netlify.app)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/110e596b-182b-4702-8039-c5bd58f59b20/deploy-status)](https://app.netlify.com/sites/halide/deploys)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/halide#TINA_CMS_CLIENT_ID=replace-with-your-tina-cms-client-id&TINA_CMS_TOKEN=replace-with-your-tina-cms-token&TINA_CMS_SEARCH_TOKEN=replace-with-your-tina-cms-search-token)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Halide
 
 Halide is a very simple and fast image portfolio website template, ready for deployment to Netlify.
@@ -19,10 +16,8 @@ Halide also comes with [Tina CMS](https://tina.io/) pre-configured. Tina CMS is 
 ## Features
 
 - Responsive, static HTML front-end
-- Exceptional front end performance (Lighthouse results coming soon)
 - [Eleventy Image](https://www.11ty.dev/docs/plugins/image/) for optimized images in next-gen formats
 - Automated `<picture>` syntax markup with srcset and sizes
-- Tina CMS for content management (optional, can edit .md files manually)
 - Dark mode support
 - Customizable theme settings, colors, and typography
 - Simple HTML/CSS/JS minification pipeline
@@ -52,7 +47,7 @@ By design, there are no additional pages for a bio, contact etc. You could easil
 Halide requires a number of services to be configured before it can be deployed. If you don't already have accounts with the following providers, you'll need to set these up first. Each provider’s free plan is sufficient for most use-cases.
 
 1. GitHub
-2. Netlify
+
 3. Tina Cloud (if you want to use Tina CMS)
 
 When you've created accounts with the providers listed above, you can proceed with the steps below to set up Halide.

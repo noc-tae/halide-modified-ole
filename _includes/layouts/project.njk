@@ -72,6 +72,9 @@ section: project
     <div class="grid grid--description pb--6">
       <div class="grid__item--span-4 mw--readable">
         {{ content | safe }}
+        {% if audio %}
+          {% articleAudio audio, audioLabel %}
+        {% endif %}
       </div>
     </div>
   </section>
